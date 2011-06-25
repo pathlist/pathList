@@ -1,0 +1,608 @@
+Tpathlist
+v7
+r0
+t325557635.787206
+cCheck dependencies
+cCpResource build/Debug-iphoneos/pathlist.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/Info.plist pathlist-Info.plist
+cCompileXIB /Users/kimgreenlee/Documents/workspace/pathlist/MainWindow.xib
+cCompileXIB /Users/kimgreenlee/Documents/workspace/pathlist/pathlistViewController.xib
+cProcessPCH /var/folders/-j/-jke4k2UFCa3SO9rkA3D9++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pathlist_Prefix-bqqqnwpexjvohicbnvzcytoillxw/pathlist_Prefix.pch.gch pathlist_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/-j/-jke4k2UFCa3SO9rkA3D9++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pathlist_Prefix-bghnbwyseiwbakbwgapyssjjwalc/pathlist_Prefix.pch.gch pathlist_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/main.o /Users/kimgreenlee/Documents/workspace/pathlist/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/pathlistAppDelegate.o /Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/pathlistViewController.o /Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/PathWayPoint.o /Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPoint.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/PathWayPointView.o /Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPointView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/pathlist normal armv6
+cCompileC build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/main.o /Users/kimgreenlee/Documents/workspace/pathlist/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/pathlistAppDelegate.o /Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/pathlistViewController.o /Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/PathWayPoint.o /Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPoint.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/PathWayPointView.o /Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPointView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/pathlist normal armv7
+cCreateUniversalBinary /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/pathlist normal "armv6 armv7"
+cGenerateDSYMFile /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app.dSYM /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/pathlist
+cProcessProductPackaging "/Users/kimgreenlee/Library/MobileDevice/Provisioning Profiles/F34599CA-2F14-42CC-847E-C1135734BCF3.mobileprovision" /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/embedded.mobileprovision
+cTouch /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist.xcent
+cCodeSign /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D7401890000000000000110
+t1299448201
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004D5DE7AF00000000000FD4D0
+t1297999791
+s1037520
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004D5DE7A400000000000001D0
+t1297999780
+s464
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004D5C9CA600000000000002FE
+t1297915046
+s766
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004D5C9CD400000000002B3AB0
+t1297915092
+s2833072
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/../../../Downloads/FactualSDK.framework/FactualSDK
+c000000004D4339C60000000000132524
+t1296251334
+s1254692
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPoint.h
+c000000004DB4B24E00000000000001CD
+t1303687758
+s461
+i<MapKit/MapKit.h>
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPoint.m
+c000000004DB3AA5E0000000000000235
+t1303620190
+s565
+i"PathWayPoint.h"
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPointView.h
+c000000004DB4B59B000000000000012E
+t1303688603
+s302
+i<MapKit/MapKit.h>
+i"PathWayPoint.h"
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPointView.m
+c000000004DB4B59B00000000000004A8
+t1303688603
+s1192
+i"PathWayPointView.h"
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistAppDelegate.h
+c000000004DB4B20E0000000000000220
+t1303687694
+s544
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistAppDelegate.m
+c000000004DB4B20E0000000000000AAD
+t1303687694
+s2733
+i"pathlistAppDelegate.h"
+i"pathlistViewController.h"
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistViewController.h
+c000000004DB4B59B00000000000001BA
+t1303688603
+s442
+i<MapKit/MapKit.h>
+i<FactualSDK/FactualAPI.h>
+i"PathWayPointView.h"
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistViewController.m
+c000000004DB74F8D0000000000001454
+t1303859085
+s5204
+i"pathlistViewController.h"
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/MainWindow.xib
+c000000004DB382DD0000000000004E35
+t1303610077
+s20021
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app
+t1303864798
+s374
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app.dSYM
+t1303864787
+s102
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/Info.plist
+t1303864783
+s942
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/MainWindow.nib
+t1303864783
+s1683
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/PkgInfo
+t1303864783
+s8
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/ResourceRules.plist
+t1303864783
+s485
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/embedded.mobileprovision
+t1303864787
+s9605
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/pathlist
+t1303864787
+s298240
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/pathlistViewController.nib
+t1303864784
+s1939
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/PathWayPoint.o
+t1303864785
+s13336
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/PathWayPointView.o
+t1303864785
+s42304
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/main.o
+t1303864785
+s6464
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/pathlist
+t1303864786
+s139708
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/pathlist.LinkFileList
+c000000004DB765CF00000000000002B0
+t1303864783
+s688
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/pathlistAppDelegate.o
+t1303864785
+s51860
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/pathlistViewController.o
+t1303864785
+s54780
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/PathWayPoint.o
+t1303864785
+s13132
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/PathWayPointView.o
+t1303864785
+s41728
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/main.o
+t1303864785
+s6448
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/pathlist
+t1303864786
+s140188
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/pathlist.LinkFileList
+c000000004DB765CF00000000000002B0
+t1303864783
+s688
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/pathlistAppDelegate.o
+t1303864785
+s51752
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/pathlistViewController.o
+t1303864785
+s54444
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist.xcent
+t1303864787
+s422
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/main.m
+c000000004DB382DD0000000000000167
+t1303610077
+s359
+i<UIKit/UIKit.h>
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/pathlistViewController.xib
+c000000004DB3A14C00000000000044DD
+t1303617868
+s17629
+
+N/Users/kimgreenlee/Documents/workspace/pathlist/pathlist_Prefix.pch
+c000000004DB382DD00000000000000B9
+t1303610077
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/kimgreenlee/Downloads/FactualSDK.framework/Headers/FactualAPI.h
+c000000004DB6464E00000000000030B0
+t1303791182
+s12464
+i<Foundation/Foundation.h>
+i"FactualAPIRequest.h"
+i"FactualUpdateResult.h"
+i"FactualQueryResult.h"
+i"FactualSchemaResult.h"
+i"FactualFieldMetadata.h"
+i"FactualQuery.h"
+
+N/Users/kimgreenlee/Downloads/FactualSDK.framework/Headers/FactualAPIRequest.h
+c000000004D4339C6000000000000064A
+t1296251334
+s1610
+i<UIKit/UIKit.h>
+
+N/Users/kimgreenlee/Downloads/FactualSDK.framework/Headers/FactualFieldMetadata.h
+c000000004D4339C6000000000000060E
+t1296251334
+s1550
+i<Foundation/Foundation.h>
+
+N/Users/kimgreenlee/Downloads/FactualSDK.framework/Headers/FactualQuery.h
+c000000004D4339C600000000000021AD
+t1296251334
+s8621
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/kimgreenlee/Downloads/FactualSDK.framework/Headers/FactualQueryResult.h
+c000000004D4339C600000000000006FD
+t1296251334
+s1789
+i"FactualRow.h"
+
+N/Users/kimgreenlee/Downloads/FactualSDK.framework/Headers/FactualRow.h
+c000000004D4339C60000000000001085
+t1296251334
+s4229
+i<Foundation/Foundation.h>
+
+N/Users/kimgreenlee/Downloads/FactualSDK.framework/Headers/FactualSchemaResult.h
+c000000004D4339C60000000000000755
+t1296251334
+s1877
+i<Foundation/Foundation.h>
+
+N/Users/kimgreenlee/Downloads/FactualSDK.framework/Headers/FactualUpdateResult.h
+c000000004D4339C60000000000000550
+t1296251334
+s1360
+
+N/Users/kimgreenlee/Library/MobileDevice/Provisioning Profiles/F34599CA-2F14-42CC-847E-C1135734BCF3.mobileprovision
+c000000004DA39ED00000000000002585
+t1302568656
+s9605
+
+N/var/folders/-j/-jke4k2UFCa3SO9rkA3D9++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pathlist_Prefix-bghnbwyseiwbakbwgapyssjjwalc/pathlist_Prefix.pch.gch
+t1303864785
+s10647452
+
+N/var/folders/-j/-jke4k2UFCa3SO9rkA3D9++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pathlist_Prefix-bqqqnwpexjvohicbnvzcytoillxw/pathlist_Prefix.pch.gch
+t1303864784
+s10184604
+
+Npathlist-Info.plist
+c000000004DB38FE3000000000000044A
+t1303613411
+s1098
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies325557635#325557635#0(0"0(0#1#0"8603664128#0"0#
+
+CCodeSign /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app
+s325557587.183392
+e325557598.490586
+r1
+xCodeSign
+x/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app
+lSLF07#2@42"CodeSign build/Debug-iphoneos/pathlist.app325557587#325557598#0(0"0(0#0#81"/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app8614448288#699"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Steffen FROST-RUEBLING (85FB3YXY5W)" --resource-rules=/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/ResourceRules.plist --entitlements /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist.xcent /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app0#
+
+CCompileC build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/PathWayPoint.o /Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPoint.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325557585.345711
+e325557585.415003
+r1
+xCompileC
+xbuild/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/PathWayPoint.o
+x/Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPoint.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPoint.m325557585#325557585#0(0"0(0#0#70"/Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPoint.m8603495584#1936"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-generated-files.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-own-target-headers.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-all-target-headers.hmap -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-project-headers.hmap -F/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos -F/Users/kimgreenlee/Documents/workspace/pathlist/../../../Downloads -I/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/include -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources/armv6 -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources -include /var/folders/-j/-jke4k2UFCa3SO9rkA3D9++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pathlist_Prefix-bqqqnwpexjvohicbnvzcytoillxw/pathlist_Prefix.pch -c /Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPoint.m -o /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/PathWayPoint.o0#
+
+CCompileC build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/PathWayPointView.o /Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPointView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325557585.410846
+e325557585.511893
+r1
+xCompileC
+xbuild/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/PathWayPointView.o
+x/Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPointView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPointView.m325557585#325557585#0(0"0(0#0#74"/Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPointView.m8615155392#1944"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-generated-files.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-own-target-headers.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-all-target-headers.hmap -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-project-headers.hmap -F/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos -F/Users/kimgreenlee/Documents/workspace/pathlist/../../../Downloads -I/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/include -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources/armv6 -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources -include /var/folders/-j/-jke4k2UFCa3SO9rkA3D9++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pathlist_Prefix-bqqqnwpexjvohicbnvzcytoillxw/pathlist_Prefix.pch -c /Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPointView.m -o /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/PathWayPointView.o0#
+
+CCompileC build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/main.o /Users/kimgreenlee/Documents/workspace/pathlist/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325557585.192447
+e325557585.298126
+r1
+xCompileC
+xbuild/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/main.o
+x/Users/kimgreenlee/Documents/workspace/pathlist/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/kimgreenlee/Documents/workspace/pathlist/main.m325557585#325557585#0(0"0(0#0#54"/Users/kimgreenlee/Documents/workspace/pathlist/main.m8615024480#1912"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-generated-files.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-own-target-headers.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-all-target-headers.hmap -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-project-headers.hmap -F/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos -F/Users/kimgreenlee/Documents/workspace/pathlist/../../../Downloads -I/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/include -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources/armv6 -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources -include /var/folders/-j/-jke4k2UFCa3SO9rkA3D9++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pathlist_Prefix-bqqqnwpexjvohicbnvzcytoillxw/pathlist_Prefix.pch -c /Users/kimgreenlee/Documents/workspace/pathlist/main.m -o /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/pathlistAppDelegate.o /Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325557585.194075
+e325557585.345617
+r1
+xCompileC
+xbuild/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/pathlistAppDelegate.o
+x/Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistAppDelegate.m325557585#325557585#0(0"0(0#0#77"/Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistAppDelegate.m8614821184#1950"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-generated-files.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-own-target-headers.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-all-target-headers.hmap -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-project-headers.hmap -F/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos -F/Users/kimgreenlee/Documents/workspace/pathlist/../../../Downloads -I/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/include -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources/armv6 -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources -include /var/folders/-j/-jke4k2UFCa3SO9rkA3D9++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pathlist_Prefix-bqqqnwpexjvohicbnvzcytoillxw/pathlist_Prefix.pch -c /Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistAppDelegate.m -o /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/pathlistAppDelegate.o0#
+
+CCompileC build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/pathlistViewController.o /Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325557585.298226
+e325557585.410740
+r1
+xCompileC
+xbuild/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/pathlistViewController.o
+x/Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistViewController.m325557585#325557585#0(0"0(0#0#80"/Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistViewController.m8614135360#1956"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-generated-files.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-own-target-headers.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-all-target-headers.hmap -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-project-headers.hmap -F/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos -F/Users/kimgreenlee/Documents/workspace/pathlist/../../../Downloads -I/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/include -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources/armv6 -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources -include /var/folders/-j/-jke4k2UFCa3SO9rkA3D9++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pathlist_Prefix-bqqqnwpexjvohicbnvzcytoillxw/pathlist_Prefix.pch -c /Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistViewController.m -o /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/pathlistViewController.o0#
+
+CCompileC build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/PathWayPoint.o /Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPoint.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325557585.701503
+e325557585.776376
+r1
+xCompileC
+xbuild/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/PathWayPoint.o
+x/Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPoint.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPoint.m325557585#325557585#0(0"0(0#0#70"/Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPoint.m8603465792#1936"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-generated-files.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-own-target-headers.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-all-target-headers.hmap -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-project-headers.hmap -F/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos -F/Users/kimgreenlee/Documents/workspace/pathlist/../../../Downloads -I/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/include -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources/armv7 -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources -include /var/folders/-j/-jke4k2UFCa3SO9rkA3D9++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pathlist_Prefix-bghnbwyseiwbakbwgapyssjjwalc/pathlist_Prefix.pch -c /Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPoint.m -o /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/PathWayPoint.o0#
+
+CCompileC build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/PathWayPointView.o /Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPointView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325557585.776476
+e325557585.861056
+r1
+xCompileC
+xbuild/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/PathWayPointView.o
+x/Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPointView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPointView.m325557585#325557585#0(0"0(0#0#74"/Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPointView.m8599449600#1944"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-generated-files.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-own-target-headers.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-all-target-headers.hmap -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-project-headers.hmap -F/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos -F/Users/kimgreenlee/Documents/workspace/pathlist/../../../Downloads -I/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/include -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources/armv7 -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources -include /var/folders/-j/-jke4k2UFCa3SO9rkA3D9++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pathlist_Prefix-bghnbwyseiwbakbwgapyssjjwalc/pathlist_Prefix.pch -c /Users/kimgreenlee/Documents/workspace/pathlist/Classes/PathWayPointView.m -o /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/PathWayPointView.o0#
+
+CCompileC build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/main.o /Users/kimgreenlee/Documents/workspace/pathlist/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325557585.415097
+e325557585.478655
+r1
+xCompileC
+xbuild/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/main.o
+x/Users/kimgreenlee/Documents/workspace/pathlist/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/kimgreenlee/Documents/workspace/pathlist/main.m325557585#325557585#0(0"0(0#0#54"/Users/kimgreenlee/Documents/workspace/pathlist/main.m8612350208#1912"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-generated-files.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-own-target-headers.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-all-target-headers.hmap -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-project-headers.hmap -F/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos -F/Users/kimgreenlee/Documents/workspace/pathlist/../../../Downloads -I/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/include -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources/armv7 -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources -include /var/folders/-j/-jke4k2UFCa3SO9rkA3D9++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pathlist_Prefix-bghnbwyseiwbakbwgapyssjjwalc/pathlist_Prefix.pch -c /Users/kimgreenlee/Documents/workspace/pathlist/main.m -o /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/pathlistAppDelegate.o /Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325557585.478757
+e325557585.585173
+r1
+xCompileC
+xbuild/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/pathlistAppDelegate.o
+x/Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistAppDelegate.m325557585#325557585#0(0"0(0#0#77"/Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistAppDelegate.m8599454912#1950"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-generated-files.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-own-target-headers.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-all-target-headers.hmap -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-project-headers.hmap -F/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos -F/Users/kimgreenlee/Documents/workspace/pathlist/../../../Downloads -I/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/include -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources/armv7 -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources -include /var/folders/-j/-jke4k2UFCa3SO9rkA3D9++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pathlist_Prefix-bghnbwyseiwbakbwgapyssjjwalc/pathlist_Prefix.pch -c /Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistAppDelegate.m -o /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/pathlistAppDelegate.o0#
+
+CCompileC build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/pathlistViewController.o /Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325557585.585426
+e325557585.701260
+r1
+xCompileC
+xbuild/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/pathlistViewController.o
+x/Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistViewController.m325557585#325557585#0(0"0(0#0#80"/Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistViewController.m8614453088#1956"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-generated-files.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-own-target-headers.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-all-target-headers.hmap -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-project-headers.hmap -F/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos -F/Users/kimgreenlee/Documents/workspace/pathlist/../../../Downloads -I/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/include -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources/armv7 -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources -include /var/folders/-j/-jke4k2UFCa3SO9rkA3D9++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pathlist_Prefix-bghnbwyseiwbakbwgapyssjjwalc/pathlist_Prefix.pch -c /Users/kimgreenlee/Documents/workspace/pathlist/Classes/pathlistViewController.m -o /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/pathlistViewController.o0#
+
+CCompileXIB /Users/kimgreenlee/Documents/workspace/pathlist/MainWindow.xib
+s325557583.407559
+e325557583.940920
+r1
+xCompileXIB
+x/Users/kimgreenlee/Documents/workspace/pathlist/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib325557583#325557583#0(0"0(0#0#62"/Users/kimgreenlee/Documents/workspace/pathlist/MainWindow.xib8600303136#570"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/MainWindow.nib /Users/kimgreenlee/Documents/workspace/pathlist/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/kimgreenlee/Documents/workspace/pathlist/pathlistViewController.xib
+s325557583.408196
+e325557584.013740
+r1
+xCompileXIB
+x/Users/kimgreenlee/Documents/workspace/pathlist/pathlistViewController.xib
+lSLF07#2@37"CompileXIB pathlistViewController.xib325557583#325557584#0(0"0(0#0#74"/Users/kimgreenlee/Documents/workspace/pathlist/pathlistViewController.xib8614452896#594"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/pathlistViewController.nib /Users/kimgreenlee/Documents/workspace/pathlist/pathlistViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCpResource build/Debug-iphoneos/pathlist.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s325557583.341022
+e325557583.407481
+r1
+xCpResource
+xbuild/Debug-iphoneos/pathlist.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist325557583#325557583#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist8612171712#513"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app0#
+
+CCreateUniversalBinary /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/pathlist normal "armv6 armv7"
+s325557587.029511
+e325557587.081599
+r1
+xCreateUniversalBinary
+x/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/pathlist
+xnormal
+xarmv6 armv7
+lSLF07#2@85"CreateUniversalBinary build/Debug-iphoneos/pathlist.app/pathlist normal "armv6 armv7"325557587#325557587#0(0"0(0#0#59"/Users/kimgreenlee/Documents/workspace/pathlist/armv6 armv78602684768#562"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/pathlist /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/pathlist -output /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/pathlist0#
+
+CGenerateDSYMFile /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app.dSYM /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/pathlist
+s325557587.081741
+e325557587.143242
+r1
+xGenerateDSYMFile
+x/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app.dSYM
+x/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/pathlist
+lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/pathlist.app.dSYM build/Debug-iphoneos/pathlist.app/pathlist325557587#325557587#0(0"0(0#0#90"/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/pathlist8602434208#392"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/pathlist -o /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app.dSYM0#
+
+CLd /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/pathlist normal armv6
+s325557585.511986
+e325557587.028289
+r1
+xLd
+x/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/pathlist
+xnormal
+xarmv6
+lSLF07#2@133"Link /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/pathlist325557585#325557587#0(0"0(0#0#0"8614942752#1043"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos -F/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos -F/Users/kimgreenlee/Documents/workspace/pathlist/../../../Downloads -filelist /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/pathlist.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -framework FactualSDK -framework CoreLocation -o /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv6/pathlist0#
+
+CLd /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/pathlist normal armv7
+s325557585.861156
+e325557587.029413
+r1
+xLd
+x/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/pathlist
+xnormal
+xarmv7
+lSLF07#2@133"Link /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/pathlist325557585#325557587#0(0"0(0#0#0"8614873280#1043"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos -F/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos -F/Users/kimgreenlee/Documents/workspace/pathlist/../../../Downloads -filelist /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/pathlist.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -framework FactualSDK -framework CoreLocation -o /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/Objects-normal/armv7/pathlist0#
+
+CProcessInfoPlistFile /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/Info.plist pathlist-Info.plist
+s325557583.341837
+e325557583.389286
+r1
+xProcessInfoPlistFile
+x/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/Info.plist
+xpathlist-Info.plist
+lSLF07#2@27"Process pathlist-Info.plist325557583#325557583#0(0"0(0#0#67"/Users/kimgreenlee/Documents/workspace/pathlist/pathlist-Info.plist8604127552#602"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility pathlist-Info.plist -genpkginfo /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/ResourceRules.plist -o /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/Info.plist0#
+
+CProcessPCH /var/folders/-j/-jke4k2UFCa3SO9rkA3D9++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pathlist_Prefix-bghnbwyseiwbakbwgapyssjjwalc/pathlist_Prefix.pch.gch pathlist_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325557584.014670
+e325557585.192259
+r1
+xProcessPCH
+x/var/folders/-j/-jke4k2UFCa3SO9rkA3D9++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pathlist_Prefix-bghnbwyseiwbakbwgapyssjjwalc/pathlist_Prefix.pch.gch
+xpathlist_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile pathlist_Prefix.pch325557584#325557585#0(0"0(0#0#67"/Users/kimgreenlee/Documents/workspace/pathlist/pathlist_Prefix.pch8611732544#1800"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-generated-files.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-own-target-headers.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-all-target-headers.hmap -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-project-headers.hmap -F/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos -F/Users/kimgreenlee/Documents/workspace/pathlist/../../../Downloads -I/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/include -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources/armv7 -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources -c /Users/kimgreenlee/Documents/workspace/pathlist/pathlist_Prefix.pch -o /var/folders/-j/-jke4k2UFCa3SO9rkA3D9++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pathlist_Prefix-bghnbwyseiwbakbwgapyssjjwalc/pathlist_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/-j/-jke4k2UFCa3SO9rkA3D9++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pathlist_Prefix-bqqqnwpexjvohicbnvzcytoillxw/pathlist_Prefix.pch.gch pathlist_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325557584.013860
+e325557585.040232
+r1
+xProcessPCH
+x/var/folders/-j/-jke4k2UFCa3SO9rkA3D9++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pathlist_Prefix-bqqqnwpexjvohicbnvzcytoillxw/pathlist_Prefix.pch.gch
+xpathlist_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile pathlist_Prefix.pch325557584#325557585#0(0"0(0#0#67"/Users/kimgreenlee/Documents/workspace/pathlist/pathlist_Prefix.pch8614247648#1800"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-generated-files.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-own-target-headers.hmap -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-all-target-headers.hmap -iquote /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist-project-headers.hmap -F/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos -F/Users/kimgreenlee/Documents/workspace/pathlist/../../../Downloads -I/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/include -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources/armv6 -I/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/DerivedSources -c /Users/kimgreenlee/Documents/workspace/pathlist/pathlist_Prefix.pch -o /var/folders/-j/-jke4k2UFCa3SO9rkA3D9++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pathlist_Prefix-bqqqnwpexjvohicbnvzcytoillxw/pathlist_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/kimgreenlee/Library/MobileDevice/Provisioning Profiles/F34599CA-2F14-42CC-847E-C1135734BCF3.mobileprovision" /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/embedded.mobileprovision
+s325557587.143344
+e325557587.165337
+r1
+xProcessProductPackaging
+x/Users/kimgreenlee/Library/MobileDevice/Provisioning Profiles/F34599CA-2F14-42CC-847E-C1135734BCF3.mobileprovision
+x/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/embedded.mobileprovision
+lSLF07#2@199"ProcessProductPackaging "/Users/kimgreenlee/Library/MobileDevice/Provisioning Profiles/F34599CA-2F14-42CC-847E-C1135734BCF3.mobileprovision" build/Debug-iphoneos/pathlist.app/embedded.mobileprovision325557587#325557587#0(0"0(0#0#106"/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/embedded.mobileprovision8603649280#448"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/kimgreenlee/Library/MobileDevice/Provisioning Profiles/F34599CA-2F14-42CC-847E-C1135734BCF3.mobileprovision" -o /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist.xcent
+s325557587.169545
+e325557587.183317
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist.xcent
+lSLF07#2@178"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist.xcent325557587#325557587#0(0"0(0#0#113"/Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist.xcent8603176480#453"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/kimgreenlee/Documents/workspace/pathlist/build/pathlist.build/Debug-iphoneos/pathlist.build/pathlist.xcent0#
+
+CTouch /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app
+s325557587.165423
+e325557587.169454
+r1
+xTouch
+x/Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app
+lSLF07#2@87"Touch /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app325557587#325557587#0(0"0(0#0#0"8612181216#283"    cd /Users/kimgreenlee/Documents/workspace/pathlist    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/kimgreenlee/Documents/workspace/pathlist/build/Debug-iphoneos/pathlist.app0#
+
