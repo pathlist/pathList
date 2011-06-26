@@ -39,7 +39,7 @@
 
 - (void)drawRect:(CGRect)rect {
   float magSquared = event.rating * event.rating;
-	CGContextRef context = UIGraphicsGetCurrentContext();
+  CGContextRef context = UIGraphicsGetCurrentContext();
   CGContextSetRGBFillColor(context, 1.0, 1.0 - magSquared * 0.015, 0.211, .6);
   CGContextFillEllipseInRect(context, rect);
 }

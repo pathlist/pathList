@@ -1,35 +1,27 @@
 //
-//  pathlistViewController.m
+//  PathlistViewController.m
 //  pathlist
 //
 //  Created by Server Engineer on 4/23/11.
 //  Copyright 2011 Carticipate. All rights reserved.
 //
 
-#import "pathlistViewController.h"
+#import "PathlistViewController.h"
+#import "PathWayPoint.h"
 
-@implementation pathlistViewController
+@implementation PathlistViewController
 
+@synthesize	currentLatLon;
+@synthesize    lastLatLon;
+@synthesize  deniedLatLon;
+@synthesize    locManager;				// Steffen added
+@synthesize currentLatLonTimestamp;
+@synthesize    lastLatLonTimestamp;
 
-
-/*
-// The designated initializer. Override to perform setup that is required before the view is loaded.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
+- (void)dealloc {
+	[self  releaseViewResources];
+    [super dealloc];
 }
-*/
-
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
-}
-*/
-
-
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
@@ -44,22 +36,22 @@
 	// setup query
     CLLocationCoordinate2D fakeCoordinate;
     
-
+    fakeCoordinate.latitude  =   37.78685;      // downtown SF: 37.38690, -122.06407
+    fakeCoordinate.longitude = -122.39392;
     
-    fakeCoordinate.latitude  =   37.38690;      // at hacker dojo 37.38690, -122.06407
-    fakeCoordinate.longitude = -122.06407;
-    
-    [queryObject setGeoFilter:fakeCoordinate radiusInMeters:14000.00];
+    [queryObject setGeoFilter:fakeCoordinate radiusInMeters:20000.00];
+     queryObject.limit = 9000;
 	
 	// send query to factual (and let the delegate handle it)
-	[[apiObject queryTable:@"JBbIvk" optionalQueryParams:queryObject withDelegate:self] retain];
-
-    // resize the map
-    [mapView setCenterCoordinate:fakeCoordinate animated:YES];
-    [mapView setRegion:MKCoordinateRegionMake(fakeCoordinate, MKCoordinateSpanMake(0.02, 0.02))]; 
+    [[apiObject queryTable:@"a9ttss" optionalQueryParams:queryObject withDelegate:self] retain];
     
+    // resize the map
+    [map setCenterCoordinate:fakeCoordinate animated:YES];
+    [map setRegion:MKCoordinateRegionMake(fakeCoordinate, MKCoordinateSpanMake(0.02, 0.02))]; 
 
-    // * Writing to pathlist * //
+
+/*
+  // * Writing to pathlist * //
     
     // create a dictionary 
     NSMutableDictionary* dictionary = [NSMutableDictionary dictionaryWithCapacity:0];
@@ -79,9 +71,8 @@
                optionalSource:@"Some Mobile App" 
               optionalComment:@"Comment"
             optionalUserToken:nil]               retain];
+*/
 }
-
-
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -98,13 +89,13 @@
 	// Release any cached data, images, etc that aren't in use.
 }
 
-- (void)releaseViewResources;
+- (void)releaseViewResources
 {
-	[mapView   release];
+	[map       release];
     [apiObject release];
     
 	apiObject = nil;	
-	mapView   = nil;
+	map       = nil;
 }
 
 - (void)viewDidUnload {
@@ -112,12 +103,6 @@
 	// e.g. self.myOutlet = nil;
     
     [self releaseViewResources];
-}
-
-
-- (void)dealloc {
-	[self releaseViewResources];
-    [super dealloc];
 }
 
 
@@ -133,31 +118,33 @@
     NSLog(@"queryResult requestID: %@", [queryResult tableId]);
     
     // update UI w/ info from factual...
-    
-    NSMutableArray *eventPoints = [[NSMutableArray alloc] init];
-    PathWayPoint   *event;
-    
     NSLog(@"Number of query results %f: ", queryResult.rows);
-        
-    for (FactualRow *row in queryResult.rows) {
-        event  = [[PathWayPoint alloc] init];
-                
-        event.latitude  = [[row.values objectAtIndex:1] floatValue];
-        event.longitude = [[row.values objectAtIndex:2] floatValue];
-        event.rating    = [[row.values objectAtIndex:3] floatValue];
-                
-        [eventPoints addObject:event];
-                
-        [event release];
-        
-        NSLog(@"eventPoints count is: %i", [eventPoints count]);
-    }
-        
-        
-    [mapView addAnnotations: eventPoints];
-    [eventPoints release];
-}
 
+    for (FactualRow *row in queryResult.rows) {
+        
+        CLLocationCoordinate2D coordStart;
+        CLLocationCoordinate2D coordEnd;
+        float                  incline;
+        
+        coordStart.latitude  = [[row.values objectAtIndex:1] floatValue];
+        coordStart.longitude = [[row.values objectAtIndex:2] floatValue];
+          coordEnd.latitude  = [[row.values objectAtIndex:3] floatValue];
+          coordEnd.longitude = [[row.values objectAtIndex:4] floatValue];
+                     incline = [[row.values objectAtIndex:5] floatValue];
+        
+        NSUInteger numPoints = 2;
+        CLLocationCoordinate2D *pathSegment = malloc( sizeof(CLLocationCoordinate2D) * numPoints );
+        
+        pathSegment[0] = coordStart;
+        pathSegment[1] = coordEnd;
+        
+        MKPolyline *polyline = [MKPolyline polylineWithCoordinates:pathSegment count:numPoints];
+        
+        [map addOverlay:polyline];
+        free(pathSegment);        
+    } 
+}
+    
 // Writing
 - (void)requestComplete:(FactualAPIRequest*) request receivedUpdateResult:(FactualUpdateResult*) updateResult {
     
@@ -167,5 +154,99 @@
     
 }
 
+
+#pragma mark Core Location entry Points
+
+- (void) startUpdatingLocation;
+{
+    //	NSLog(@"MapVC*: startUpdatingLocation...");
+    
+	if (deniedLatLon || (locManager != nil)) return;
+	
+    //	NSLog(@"MapVC*: are we about to alloc another CLLocationManager here?");
+	locManager = [[CLLocationManager alloc] init];
+	if (! [CLLocationManager locationServicesEnabled]) {
+		NSLog(@"Cross your fingers, folks! User has requested us to get a location, but hasn't enabled locationServices. The update request will trigger a dialog.");
+	}
+	
+	locManager.delegate = self;
+	locManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;
+	[locManager startUpdatingLocation];
+	
+    //	NSLog(@"... finishing MapVC*: startUpdatingLocation...");
+}
+
+- (void) stopUpdatingLocation;
+{
+    //	NSLog(@"MapVC*: stopUpdatingLocation...");	
+	[locManager stopUpdatingLocation];
+	[locManager autorelease];				//  Should we remove this and add the below???
+    //	[locManager release];					//	Steffen added, 
+	locManager = nil;
+    //	NSLog(@"... finishing MapVC*: stopUpdatingLocation...");	
+}
+
+
+#pragma mark MKMapView Protocols
+
+- (MKOverlayView *)mapView:(MKMapView *)mapView viewForOverlay:(id <MKOverlay>)overlay
+{
+    MKPolylineView *polylineView = [[[MKPolylineView alloc] initWithPolyline:overlay] autorelease]; 
+    polylineView.lineWidth   = 5.0;
+    polylineView.strokeColor = [UIColor greenColor];
+    polylineView.fillColor   = [UIColor greenColor];
+    return polylineView;
+}
+
+/*
+- (void)mapView:(MKMapView *)mapView regionDidChangeAnimated:(BOOL)animated {
+    
+    //	NSLog(@"MapVC: regionDidChangeAnimated: START");
+	
+	
+	// get the new span, see if the ZOOM changed (significantly); if so, update the MKAnnotationView and listenCircle
+	mapRegionOld	= mapRegion;
+	mapRegion		= [map region];
+	
+	double deltaX = fabs((mapRegion.span.longitudeDelta - mapRegionOld.span.longitudeDelta) / mapRegion.span.longitudeDelta);
+	double deltaY = fabs((mapRegion.span.latitudeDelta  - mapRegionOld.span.latitudeDelta ) / mapRegion.span.latitudeDelta );
+	
+	if ( (deltaX > 0.1) || (deltaY > 0.1) ) {		//		[self resizeCirclesOfChatEvents]; ...deal with pinners later
+
+        // Do something, maybe?
+	}
+	
+	// get the map coordinates where you generate the chat, if visible
+	mapCenterLatLonOld  =  mapCenterLatLon;
+	mapLeftLatLon		= [map convertPoint:leftTarget toCoordinateFromView: map];
+    
+	
+    //	NSLog(@"MapVC: regionDidChangeAnimated: END");
+}
+*/
+
+/* currently unused MKMapView Protocol methods
+ - (void)mapView:(MKMapView *)mapView regionWillChangeAnimated:(BOOL)animated {}
+ - (void)mapViewWillStartLoadingMap:(MKMapView *)mapView {}
+ - (void)mapViewDidFinishLoadingMap:(MKMapView *)mapView {}
+ - (void)mapViewDidFailLoadingMap:  (MKMapView *)mapView withError:(NSError *)error {}  */
+
+
+/*
+ // The designated initializer. Override to perform setup that is required before the view is loaded.
+ - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+ self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+ if (self) {
+ // Custom initialization
+ }
+ return self;
+ }
+ */
+
+/*
+ // Implement loadView to create a view hierarchy programmatically, without using a nib.
+ - (void)loadView {
+ }
+ */
 
 @end

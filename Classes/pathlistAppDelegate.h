@@ -9,15 +9,15 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@class pathlistViewController;
+@class PathlistViewController;
 
 @interface pathlistAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow               *window;
-    pathlistViewController *viewController;
+    PathlistViewController *viewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow               *window;
-@property (nonatomic, retain) IBOutlet pathlistViewController *viewController;
+@property (nonatomic, retain) IBOutlet PathlistViewController *viewController;
 
 @end
 

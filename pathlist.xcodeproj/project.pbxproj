@@ -14,11 +14,11 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		2899E5220DE3E06400AC0155 /* pathlistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* pathlistViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		28D7ACF80DDB3853001CB0EB /* pathlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* pathlistViewController.m */; };
 		D30F8D161363BED200F9232D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30F8D151363BED200F9232D /* MapKit.framework */; };
 		D30F8D5F1363C59600F9232D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30F8D5E1363C59600F9232D /* CoreLocation.framework */; };
 		D30F8DA11363D10C00F9232D /* PathWayPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = D30F8D9E1363D10C00F9232D /* PathWayPoint.m */; };
 		D30F8DA21363D10C00F9232D /* PathWayPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = D30F8DA01363D10C00F9232D /* PathWayPointView.m */; };
+		D39172B613B69D1600935BF5 /* PathlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39172B513B69D1600935BF5 /* PathlistViewController.m */; };
 		D3D5C90A13B2EC65003AA466 /* FactualSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D5C90913B2EC65003AA466 /* FactualSDK.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,8 +31,6 @@
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2899E5210DE3E06400AC0155 /* pathlistViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = pathlistViewController.xib; sourceTree = "<group>"; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		28D7ACF60DDB3853001CB0EB /* pathlistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pathlistViewController.h; sourceTree = "<group>"; };
-		28D7ACF70DDB3853001CB0EB /* pathlistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pathlistViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* pathlist_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pathlist_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* pathlist-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pathlist-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -42,6 +40,8 @@
 		D30F8D9E1363D10C00F9232D /* PathWayPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathWayPoint.m; sourceTree = "<group>"; };
 		D30F8D9F1363D10C00F9232D /* PathWayPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathWayPointView.h; sourceTree = "<group>"; };
 		D30F8DA01363D10C00F9232D /* PathWayPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathWayPointView.m; sourceTree = "<group>"; };
+		D39172B413B69D1600935BF5 /* PathlistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathlistViewController.h; sourceTree = "<group>"; };
+		D39172B513B69D1600935BF5 /* PathlistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathlistViewController.m; sourceTree = "<group>"; };
 		D3D5C90913B2EC65003AA466 /* FactualSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FactualSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,8 +69,8 @@
 				D30F8D9E1363D10C00F9232D /* PathWayPoint.m */,
 				D30F8D9F1363D10C00F9232D /* PathWayPointView.h */,
 				D30F8DA01363D10C00F9232D /* PathWayPointView.m */,
-				28D7ACF60DDB3853001CB0EB /* pathlistViewController.h */,
-				28D7ACF70DDB3853001CB0EB /* pathlistViewController.m */,
+				D39172B413B69D1600935BF5 /* PathlistViewController.h */,
+				D39172B513B69D1600935BF5 /* PathlistViewController.m */,
 				1D3623240D0F684500981E51 /* pathlistAppDelegate.h */,
 				1D3623250D0F684500981E51 /* pathlistAppDelegate.m */,
 			);
@@ -192,9 +192,9 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* pathlistAppDelegate.m in Sources */,
-				28D7ACF80DDB3853001CB0EB /* pathlistViewController.m in Sources */,
 				D30F8DA11363D10C00F9232D /* PathWayPoint.m in Sources */,
 				D30F8DA21363D10C00F9232D /* PathWayPointView.m in Sources */,
+				D39172B613B69D1600935BF5 /* PathlistViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,6 +15,11 @@
 @synthesize window;
 @synthesize viewController;
 
+- (void)dealloc {
+    [viewController release];
+    [window         release];
+    [super dealloc];
+}
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -76,13 +81,6 @@
     /*
      Free up as much memory as possible by purging cached data objects that can be recreated (or reloaded from disk) later.
      */
-}
-
-
-- (void)dealloc {
-    [viewController release];
-    [window release];
-    [super dealloc];
 }
 
 
